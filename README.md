@@ -30,7 +30,7 @@ import numpy as np
 ### 2️⃣ Recursive Function to Draw Branches
 ```bash
 def draw_branch(x, y, length, angle, thickness, depth, ax):
-    if depth == 0:  # Base case: stop recursion when depth reaches 0
+    if depth == 0:
         return
 ```
 - If depth reaches zero, the recursion stops (prevents infinite looping).
